@@ -1,0 +1,112 @@
+@import url(http://fonts.googleapis.com/css?family=Tenor+Sans);
+html {
+  background-color: #00BFFF;
+  font-family: "Tenor Sans", sans-serif;
+}
+.typed-cursor{
+    opacity: 1;
+    font-weight: 100;
+    font-size: 180%;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.container {
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+
+.login {
+  margin-top: 50px;
+  width: 450px;
+}
+
+#typed {
+  font: 2em/30px "Tenor Sans", sans-serif;
+  color:  white;
+}
+
+.input-txt {
+  width: 100%;
+  padding: 20px 10px;
+  background:#00BFFF;
+  border: none;
+  font: 20px "Tenor Sans", sans-serif;
+  color: #696969;
+  border-bottom: 1px solid white;
+
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-transition: background-color 0.5s ease-in-out;
+  -o-transition: background-color 0.5s ease-in-out;
+  -webkit-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
+}
+.input-txt:-moz-placeholder {
+  color: white;
+}
+.input-txt:-ms-input-placeholder {
+  color: white;
+}
+.input-txt::-webkit-input-placeholder {
+  color: white;
+}
+.input-txt:focus {
+  background-color: white;
+  box-shadow: 3px 3px ;
+
+}
+
+.login-footer {
+  margin: 10px 0;
+  
+  float: left;
+  width: 100%;
+}
+
+.btn {
+  position: relative; 
+  padding: 7px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #00BFFF;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  color: white;
+  border: 3px solid white;
+  border-radius: 20px;
+  
+}
+
+.btn--right {
+  right: -150px;
+  top: 40px;
+
+}
+
+.btn:hover {
+  background-color:   white;
+  color: #696969;
+}
